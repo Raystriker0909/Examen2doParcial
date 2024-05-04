@@ -1,0 +1,51 @@
+#API {
+    border-radius: 5%;
+    width: 300px;
+    position: absolute;
+    left: 100px;
+    top: 30%;
+    transform: translateY(-50%);
+}
+#MICRO {
+    border-radius: 5%;
+    width: 290px;
+    height: 175px;
+    position: absolute;
+    left: 600px;
+    top: 30%;
+    transform: translateY(-50%);
+}
+#BACK {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        filter: blur(20px); /* Ajusta el valor del desenfoque según sea necesario */
+        z-index: -1;
+}
+@keyframes slide-up {
+    0% {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.animate-slide-up {
+    animation: slide-up 0.5s ease-out;
+}
+.navbar {
+    background-color: #0152a2; /* Color del navbar */
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffffff; /* Color del texto en el navbar */
+}
+
+.footer {
+    background-color: #0152a2; /* Color del footer */
+    color: #ffffff; /* Color del texto en el footer */
+}
