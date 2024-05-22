@@ -35,7 +35,7 @@
   </div>
 
   <div class="row">
-      <h2>¿Que son los manejadores de contenedores?</h2>
+      <h2>¿Qué son los manejadores de contenedores?</h2>
     <div class="col-md-8">
       <div class="card">
         <div class="card-body">
@@ -48,19 +48,59 @@
       <h2>Tutoriales</h2>
       <div class="list-group">
         <a href="https://youtu.be/UZpyvK6UGFo?si=EKonAn9VBuvL3eDw" class="list-group-item list-group-item-action" target="_blank">Introducción a Docker</a>
-        <a href="https://youtu.be/LfaMowFsKY0?si=lIIXynBQp2Z1gB4p" class="list-group-item list-group-item-action" target="_blank">Despliegue de una aplicacion en Docker</a>
+        <a href="https://youtu.be/LfaMowFsKY0?si=lIIXynBQp2Z1gB4p" class="list-group-item list-group-item-action" target="_blank">Despliegue de una aplicación en Docker</a>
       </div>
     </a>
     </div>
   </div>
 
   <div class="row">
-    <a id="ejemplos">
-    <div class="col-md-8">
-      <h2>Galería de Ejemplos</h2>
-      <img src="img/ejemplocontenedores.png" width="300px" alt="ejemplo1">
-    </a>
+    <div class="col-md-12">
+      <h2>Características, Ventajas y Desventajas de los Contenedores</h2>
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Característica</th>
+            <th>Ventajas</th>
+            <th>Desventajas</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Portabilidad</td>
+            <td>Permite ejecutar aplicaciones de manera consistente en diferentes entornos.</td>
+            <td>Dependencia de la infraestructura subyacente y del sistema operativo del host.</td>
+          </tr>
+          <tr>
+            <td>Isolamiento</td>
+            <td>Ofrece un alto nivel de aislamiento entre aplicaciones.</td>
+            <td>El aislamiento no es tan fuerte como en las máquinas virtuales.</td>
+          </tr>
+          <tr>
+            <td>Eficiencia</td>
+            <td>Los contenedores comparten recursos del sistema, lo que los hace más eficientes en comparación con las máquinas virtuales.</td>
+            <td>Puede haber una ligera pérdida de rendimiento debido a la virtualización del sistema operativo.</td>
+          </tr>
+          <tr>
+            <td>Escalabilidad</td>
+            <td>Permite escalar rápidamente aplicaciones al agregar o eliminar contenedores según la demanda.</td>
+            <td>La gestión de múltiples contenedores puede volverse compleja.</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
+  </div>
+</div>
+
+<div class="row">
+  <a id="ejemplos">
+  <div class="col-md-8">
+    <h2>Galería de Ejemplos</h2>
+    <img src="img/ejemplocontenedores.png" width="300px" alt="ejemplo1">
+  </a>
+  </div>
+</div>
+
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
